@@ -1,0 +1,92 @@
+*{
+  
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: normal;
+  color:   rgb(80, 77, 77);
+
+}
+.Header {
+ background-color: grey;
+ height: 15vh;
+ 
+}
+.Navbar{
+ 
+  background-color: rgb(145, 109, 109);
+  margin: auto;
+  width: 95%;
+  height: 100%;
+}
+li{
+  display: inline;
+  list-style-type: none;
+  font-size: 20px;
+}
+.Navlink{
+  padding: 20px;
+  margin: auto;
+ width: 30%;
+  background-color: goldenrod;
+
+}
+
+
+
+
+
+
+.loginpage{
+  border-radius: 2px;
+  padding: 20px;
+  width:50%;
+  margin: auto;
+  border:2px solid gray;
+
+}
+
+.image{
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+.images{
+ 
+
+ height: 10%;
+
+}
+.loginfrom{
+
+  padding: auto;
+  
+}
+input[type=text], input[type=password] {
+  width: 60%;
+  align-items: center;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display:flex;
+  background-color: #ddd;
+  border: 0px;
+
+}
+h4{
+ margin: 0px;
+}
+
+
+button{
+  background-color: rgb(236, 231, 231);
+  border: none;
+  color: rgb(15, 15, 15);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
